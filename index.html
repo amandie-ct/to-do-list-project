@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To Do List</title>
+    <script src="https://kit.fontawesome.com/4cd8c58f6d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="todos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content">
+        <h1>To Do List</h1>
+        <p><em>Use the textbox below to write your tasks. To mark a to do as done, simply click on it.</em></p>
+        <section id="outerBox">
+            <h2>My to dos...</h2>
+            <div id="innerBox">
+                <div id="addInput">
+                    <input type="text" placeholder="Add new to do">
+                    <button><i class="fas fa-plus"></i></button>
+                </div>
+                <div>
+                    <ul>
+                    </ul>
+                </div>
+                <div id="footer">
+                    <button id="clear">Clear</button>
+                </div>
+            </div>
+        </section>
+    </div>
+<script src="todos.js"></script>   
+</body>
+</html>

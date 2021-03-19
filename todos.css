@@ -1,0 +1,148 @@
+html, body{
+    height: 100%;
+}
+
+*{
+    font-family: 'Open sans', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background-color: #b08968;
+    display: flex;
+    justify-content: center;  
+}
+
+p{
+    padding: 1em;
+    margin: 0.5em;
+}
+
+h1{
+    font-size: 60px;
+    color: #6b705c;
+    margin: 2em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    display: inline;
+    background-color:rgba(237,224,212, 0.5);
+    box-shadow: 1px 1px 5px #726355;
+}
+
+h2{
+    border: solid 1px #626655;
+    background-color: #6b705c;
+    color: #fff8f1;
+    margin: 0;
+    padding: 0.3em;
+    padding-left: 0.8em;
+    font-weight: 500;
+    text-align: left;
+}
+
+#addInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 1em;
+}
+
+#addInput button{
+    background-color: #009933;
+    width: 35px;
+    height: 40px;
+    border: solid 1px #028a2f;
+    box-shadow: 1px 1px 5px #726355;
+    color: #fff;
+}
+
+#addInput button:hover{
+    background-color: #028d30;
+}
+
+#addInput input{
+    border: 1px solid #fff;
+    border-right: 0;
+    border-radius: 2px;
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+    box-shadow: 1px 1px 5px #726355;
+    padding: 0.7em;
+}
+#content{
+    width: 70%;
+}
+
+#outerBox{
+    background-color: #b7b7a4;
+    width: 100%;
+    box-shadow: 1px 1px 5px #726355;
+}
+
+#innerBox{
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    margin: 1em;
+    align-items: center;
+}
+
+li{
+    background-color: rgba(255, 230, 179, 0.6);
+    border: dashed 2px #9c6644;
+    padding: 0.6em;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    box-shadow: 1px 1px 5px #726355;
+}
+
+button.remove{
+    line-height: 2px;
+    color: #fff;
+    background-color: #ba181b;
+    border: 1px solid #ac181a;
+    border-radius: 50%;
+    font-weight: 800;
+    width: 26px;
+    height: 26px;
+    padding: 3px;
+}
+
+#footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer button{
+    background-color: #9c6542;
+    border: solid 1px #976343;
+    border-radius: 3px;
+    padding: 0.8em 1.5em;
+    margin-bottom: 2em;
+    color: #ede0d4;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 1px 1px 5px #726355;
+}
+
+#footer button:hover{
+    background-color: #86573a;
+}
+
+.done{
+    background-color: #40916c;
+    color: #ede0d4;
+    border: dashed 2px #204937;
+    padding: 0.5em;
+}
